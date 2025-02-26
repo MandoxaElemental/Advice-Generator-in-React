@@ -1,0 +1,9 @@
+@import url(https://fonts.google.com/specimen/Manrope);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+    --font-manrope: "Manrope"; 
+  }
