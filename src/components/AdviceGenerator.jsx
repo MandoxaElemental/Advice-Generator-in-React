@@ -21,6 +21,11 @@ const AdviceScreen = () => {
       const displayTxt = () => {
         Advice()
     }
+    const doubleFunction = () => {
+        displayTxt()
+        play()
+    }
+
     Advice()
 
     return(
@@ -39,8 +44,8 @@ const AdviceScreen = () => {
                     <img src="images/pattern-divider-mobile.svg" alt="pattern-divider" />
                     </div>
                 </div>
-                <div onClick={play} className="flex justify-center">
-                <div onClick={displayTxt} className="relative top-6 rounded-full bg-[#52FFA8] w-12 h-12 flex justify-center items-center hover:shadow-[0px_0px_25px_5px_rgba(82,255,168,1)]">
+                <div className="flex justify-center">
+                <div onClick={doubleFunction} className="relative top-6 rounded-full bg-[#52FFA8] w-12 h-12 flex justify-center items-center hover:shadow-[0px_0px_25px_5px_rgba(82,255,168,1)]">
                     <img src="images/icon-dice.svg" className="h-5 w-5" alt="" />
                 </div>
                 </div>
