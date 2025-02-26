@@ -1,6 +1,6 @@
 //import { Advice } from "../Services/DataServices";
 import { useState } from "react";
-import Sound from "/assets/audio/SoundFX.ogg"
+import Sound from "/audio/SoundFX.ogg"
 
 const AdviceScreen = () => {
 
@@ -39,8 +39,8 @@ const AdviceScreen = () => {
                     <img src="images/pattern-divider-mobile.svg" alt="pattern-divider" />
                     </div>
                 </div>
-                <div className="flex justify-center">
-                <div onClick={(displayTxt)(play)} className="relative top-6 rounded-full bg-[#52FFA8] w-12 h-12 flex justify-center items-center hover:shadow-[0px_0px_25px_5px_rgba(82,255,168,1)]">
+                <div onClick={play} className="flex justify-center">
+                <div onClick={displayTxt} className="relative top-6 rounded-full bg-[#52FFA8] w-12 h-12 flex justify-center items-center hover:shadow-[0px_0px_25px_5px_rgba(82,255,168,1)]">
                     <img src="images/icon-dice.svg" className="h-5 w-5" alt="" />
                 </div>
                 </div>
