@@ -28,5 +28,5 @@
 ### Advice Generator in React Challenge - Vercel Link:
 [Advice Generator in React Challenge - Vercel Link](https://advice-generator-in-react.vercel.app/)
 
-This has been Peer Reviewed By: 
-> Comments: 
+This has been Peer Reviewed By: Aaron Robinson
+> Comments: There may be some OS/browser issues as Google Chrome and Firefox don't seem to run correctly on my system. Other than that there looks to be a looping issue when calling the same function inside and outside of the UseState. This brought the fetch into an infinite loop. Styling is spot on and after some tweaks this will be a perfect replica, nice work.
