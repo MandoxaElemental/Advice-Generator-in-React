@@ -45,8 +45,8 @@ const AdviceScreen = () => {
                     </div>
                 </div>
                 <div className="flex justify-center">
-                <div onClick={doubleFunction} className="relative top-6 rounded-full bg-[#52FFA8] w-12 h-12 flex justify-center items-center hover:shadow-[0px_0px_25px_5px_rgba(82,255,168,1)]">
-                    <img src="images/icon-dice.svg" className="h-5 w-5" alt="" />
+                <div onClick={doubleFunction} className="relative top-7 rounded-full bg-[#52FFA8] w-[60px] h-[60px] flex justify-center items-center hover:shadow-[0px_0px_25px_5px_rgba(82,255,168,1)]">
+                    <img src="images/icon-dice.svg" className="h-7 w-7" alt="dice" />
                 </div>
                 </div>
             </div>
