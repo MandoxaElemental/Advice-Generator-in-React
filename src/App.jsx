@@ -5,7 +5,6 @@ import './App.css'
 import AdviceScreen from './components/AdviceGenerator'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

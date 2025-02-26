@@ -4,9 +4,11 @@ import Sound from "/audio/SoundFX.ogg"
 
 const AdviceScreen = () => {
 
-   function play(){
+   function play()
+    {
         new Audio(Sound).play()
-        }
+    }
+    
     const [display, setDisplay] = useState('')
     const [number, setNumber] = useState('')
 
@@ -19,11 +21,8 @@ const AdviceScreen = () => {
       };
 
       const displayTxt = () => {
-        Advice()
-    }
-    const doubleFunction = () => {
-        displayTxt()
-        play()
+          Advice()
+          play()
     }
 
     Advice()
@@ -45,7 +44,7 @@ const AdviceScreen = () => {
                     </div>
                 </div>
                 <div className="flex justify-center">
-                <div onClick={doubleFunction} className="relative top-7 rounded-full bg-[#52FFA8] w-[60px] h-[60px] flex justify-center items-center hover:shadow-[0px_0px_25px_5px_rgba(82,255,168,1)]">
+                <div onClick={displayTxt} className="relative top-7 rounded-full bg-[#52FFA8] w-[60px] h-[60px] flex justify-center items-center hover:shadow-[0px_0px_25px_5px_rgba(82,255,168,1)]">
                     <img src="images/icon-dice.svg" className="h-7 w-7" alt="dice" />
                 </div>
                 </div>
