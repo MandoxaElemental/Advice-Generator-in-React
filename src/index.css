@@ -1,9 +1,13 @@
-@import url(https://fonts.google.com/specimen/Manrope);
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@theme {
-    --font-manrope: "Manrope"; 
-  }
+@font-face {
+  font-family: Manrope;
+  src: url(/public/font/Manrope/static/Manrope-Bold.ttf);
+}
+
+body{
+  font-family: Manrope;
+}
