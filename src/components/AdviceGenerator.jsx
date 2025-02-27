@@ -1,5 +1,5 @@
 //import { Advice } from "../Services/DataServices";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Sound from "/audio/SoundFX.ogg"
 
 const AdviceScreen = () => {
@@ -25,7 +25,9 @@ const AdviceScreen = () => {
           play()
     }
 
-    Advice()
+    useEffect(() => {
+        Advice();
+    }, [])
 
     return(
         <>
